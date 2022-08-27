@@ -1,0 +1,2151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---------googleFont----------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Tajawal:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
+        integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assits/css/index_style.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-----------------------------navbar------------------------------------------->
+    <div class="header_nav" dir="ltr">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between py-2">
+                <div>
+                    <a href="www.facebook.com">
+                        <img src="assits/imgs/facebook.png" alt="facebook" class="facebook_img" />
+                    </a>
+                    <a href="www.facebook.com">
+                        <img src="assits/imgs/instgram.png" alt="instgram" class="instgram_img" />
+                    </a>
+                    <a href="www.facebook.com">
+                        <img src="assits/imgs/twitter.png" alt="twitter" class="twitter_img" />
+                    </a>
+                </div>
+                <div class="d-flex">
+                    <p class="mb-0">
+                        <a class="lang text-muted" href="/en/Fqs.html">English</a>
+                    </p>
+                    <div class="dropdow mx-3">
+                        <button class="btn dropdown-toggle p-0" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            مصر
+                            <img src="assits/imgs/egypt_flag.png" alt="egypt_flag" class="egypt_flag" />
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <a class="dropdown-item d-flex justify-content-end" href="#">
+                                    <p>تركيا</p>
+                                    <img src="assits/imgs/egypt_flag.png" alt="egypt_flag"
+                                        class="small_egypt_flag mt-1 mr-2"
+                                        style="transform: scale(1); width: 15px; height: 15px" />
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex justify-content-end" href="#">
+                                    <p>السعودية</p>
+                                    <img src="assits/imgs/egypt_flag.png" alt="egypt_flag"
+                                        class="small_egypt_flag mt-1 mr-2"
+                                        style="transform: scale(1); width: 15px; height: 15px" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/home.html">
+                <img src="assits/imgs/logo.png" alt="logo" class="logo" />
+            </a> <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-0 w-100 d-flex justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link " href="/home.html" tabindex="-1" aria-disabled="true">الرئيسية</a>
+                    </li>
+                    <div class="dropdown ">
+                        <a class="dropdown-toggle pt-1 nav-link mt-1"
+                            style="color: rgba(0, 0, 0, 0.45);font-size: 14px;  font-family:Tajawal";
+                            " href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            جميع التصنيفات
+                        </a>
+
+                        <ul class="dropdown-menu all_Category_dropdown" style="right:-85%; padding: 15px;top: 145%;"
+                            dir="ltr">
+                            <div class="d-flex">
+                                <ul id="level_five_Cars_vehicles"
+                                    style="display: none">
+                                    <li id="all_cars">
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul id="level_four_Cars_vehicles"
+                                    style="display: none">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul id="level_three_Cars_vehicles"
+                                    style="display: none">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul id="level_two_Cars_vehicles"
+                                    class="second_level" style="display:
+                                    none">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars1</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Mobile">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Mobile"
+                                    class="second_level2">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars2</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Electronics">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Electronics"
+                                    class="second_level3">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars3</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Sports">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Sports"
+                                    class="second_level4">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars4</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Furniture">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Furniture"
+                                    class="second_level5">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars5</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Constructing">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Constructing"
+                                    class="second_level6">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars6</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Pets">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Pets"
+                                    class="second_level7">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars7</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Baby">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Baby"
+                                    class="second_level8">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars8</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Services">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Services"
+                                    class="second_level9">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars9</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Jobs">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Jobs"
+                                    class="second_level10">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars10</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Fashion">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Fashion"
+                                    class="second_level11">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars11</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Video">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Video"
+                                    class="second_level12">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars12</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Properties">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Properties"
+                                    class="second_level13">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars13</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_three_Education">
+                                    <li id="all_cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">All cars</p>
+                                    </li>
+                                    <li id="American">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">American</p>
+                                    </li>
+                                    <li id="European">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">European</p>
+                                    </li>
+                                    <li id="Asian">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Asian</p>
+                                    </li>
+                                </ul>
+                                <ul style="display: none"
+                                    id="level_two_Education"
+                                    class="second_level14">
+                                    <li id="cars">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars14</p>
+                                    </li>
+                                    <li id="Motorcycles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Motorcycles</p>
+                                    </li>
+                                    <li id="Accessories">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">
+                                            Accessories&Motorcycles spare
+                                            Parts
+                                        </p>
+                                    </li>
+                                    <li id="Boats">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Boats
+                                            Watercraft</p>
+                                    </li>
+                                    <li id="cars_services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Cars Services</p>
+                                    </li>
+                                    <li id="Driving">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Driving Lessons</p>
+                                    </li>
+                                    <li id="Junk">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Junk Cars</p>
+                                    </li>
+                                    <li id="equipment">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Heavy Equipment
+                                            & Trucks</p>
+                                    </li>
+                                </ul>
+              
+                                <ul style="min-width:max-content; margin-left:
+                                    20px;padding: 0;" class="first_level">
+                                    <li id="Cars_vehicles">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 mr-2 my-2">Cars &
+                                            Vehicles</p>
+                                    </li>
+                                    <li id="Mobile">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 mr-2 my-2">Mobile
+                                            Phones & Tablets</p>
+                                    </li>
+                                    <li id="Electronics">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 mr-2 pr-5 my-2">
+                                            Electronics & Home applications
+                                        </p>
+                                    </li>
+                                    <li id="Sports">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Sports &
+                                            Equipments</p>
+                                    </li>
+                                    <li id="Furniture">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Furniture &
+                                            home Decoration</p>
+                                    </li>
+                                    <li id="Constructing">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 mr-2 my-2">General
+                                            Constructing</p>
+                                    </li>
+                                    <li id="Pets">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Pets</p>
+                                    </li>
+                                    <li id="Baby">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Baby</p>
+                                    </li>
+                                    <li id="Services">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Services</p>
+                                    </li>
+                                    <li id="Jobs">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Jobs</p>
+                                    </li>
+                                    <li id="Fashion">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Fashion</p>
+                                    </li>
+                                    <li id="Video">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Video Games</p>
+                                    </li>
+                                    <li id="Properties">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Properties</p>
+                                    </li>
+                                    <li id="Education">
+                                        <img src="assits/imgs/Mask Group 29583.svg" alt="" />
+              
+                                        <p class="mb-0 my-2">Education</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">العروض</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/contactus.html">تواصل معنا</a>
+                    </li>
+
+
+
+                </ul>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ar_chat d-flex">
+                        <a href="/Chat.html" class="mt-2">
+                            <img src="assits/imgs/chat.svg" alt="chat" class="px-2">
+
+                        </a>
+                    </li>
+                    <li class="nav-item ar_account_container">
+                        <button class="  dropdown-toggle p-0 mx-3 d-flex align-items-center" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+
+                            <img src="assits/imgs/AccoundImg.png" alt="AccoundImg" class="AccoundImg">
+                            Ahmed
+                        </button>
+                        <ul class="dropdown-menu Accound_dropdown" aria-labelledby="dropdownMenuButton1"
+                            style="min-height: 300px;">
+                            <li><a class="dropdown-item d-flex pb-2 border-bottom" href="Profile.html">
+                                    <img src="assits/imgs/AccoundImg.png" alt="AccoundImg"
+                                        class="w-25 mr-3 AccoundImg_dropdown">
+                                    <div>
+                                        <p class="mb-0">أحمد محمد</p>
+                                        <p class="mb-0">+20 1052431536</p>
+                                    </div>
+
+                                </a></li>
+                            <li><a class="dropdown-item d-flex my-1" href="Profile.html">
+
+                                    <img src="assits/imgs/Mask Group 29557.svg" alt="" />
+                                    <span class="mb-0">الصفحة الشخصية</span>
+
+                                </a></li>
+                            <li><a class="dropdown-item d-flex y-1" href="Profile.html">
+
+                                    <img src="assits/imgs/Mask Group 29556.svg" alt="" />
+                                    <span class="mb-0">اعلاناتي </span>
+
+
+                                </a></li>
+                            <li><a class="dropdown-item d-flex y-1" href="Profile.html">
+                                    <img src="assits/imgs/Mask Group 29559.svg" alt="" />
+                                    <span class="mb-0">باقاتي </span>
+
+
+
+                                </a></li>
+                            <li><a class="dropdown-item d-flex y-1" href="Profile.html">
+
+                                    <img src="assits/imgs/Mask Group 29558.svg" alt="" />
+                                    <span class="mb-0">مفضلاتي </span>
+
+
+                                </a></li>
+
+                            <li><a class="dropdown-item py-2 border-top" href="" style="position: absolute;bottom:0">
+                                    <img src="assits/imgs/Mask Group 29560.svg" alt="" />
+                                    <span class="mb-0">تسجيل الخروج </span>
+
+
+                                </a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="d-flex ">
+                        <div class="add_ads d-flex justify-content-center">
+                            <a href="/addAds.html" class="text-white">
+                                إضافة إعلان
+                                <img src="assits/imgs/add_img.png" class="add_img" alt="add_img">
+
+                            </a>
+                        </div>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+    <!-----------------------------section title---------------------------------------------->
+    <div class="ar_section_title">
+        <div class="container-fluid">
+            <p class="mb-0">أسئلة وأجوبة</p>
+        </div>
+    </div>
+    <!------------------------------Privacy container------------------------------------------>
+    <div class="ar_faq_container ">
+        <div class="container-fluid">
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item active_accordin" id="first_accordin">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How do I add an ad? </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Donec quam quam, consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in
+                                volutpat risus. Donec vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent
+                                mauris justo, suscipit id venenatis id, dignissim ac justo. Praesent pellentesque vel
+                                lacus vitae iaculis. Donec efficitur placerat nulla sodales consectetur.Donec quam quam,
+                                consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in volutpat risus. Donec
+                                vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent mauris justo, suscipit
+                                id venenatis id, dignissim ac justo. Praesent pellentesque vel lacus vitae iaculis.
+                                Donec efficitur placerat nulla sodales consectetur.</p>
+                            <p>
+                                Donec quam quam, consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in
+                                volutpat risus. Donec vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent
+                                mauris justo, suscipit id venenatis id, dignissim ac justo. Praesent pellentesque vel
+                                lacus vitae iaculis. Donec efficitur placerat nulla sodales consectetur.Donec quam quam,
+                                consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in volutpat risus. Donec
+                                vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent mauris justo, suscipit
+                                id venenatis id, dignissim ac justo. Praesent pellentesque vel lacus vitae iaculis.
+                                Donec efficitur placerat nulla sodales consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item"id="second_accordin">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How Can I contact the advertiser? </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Donec quam quam, consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in
+                                volutpat risus. Donec vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent
+                                mauris justo, suscipit id venenatis id, dignissim ac justo. Praesent pellentesque vel
+                                lacus vitae iaculis. Donec efficitur placerat nulla sodales consectetur.Donec quam quam,
+                                consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in volutpat risus. Donec
+                                vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent mauris justo, suscipit
+                                id venenatis id, dignissim ac justo. Praesent pellentesque vel lacus vitae iaculis.
+                                Donec efficitur placerat nulla sodales consectetur.</p>
+                            <p>
+                                Donec quam quam, consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in
+                                volutpat risus. Donec vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent
+                                mauris justo, suscipit id venenatis id, dignissim ac justo. Praesent pellentesque vel
+                                lacus vitae iaculis. Donec efficitur placerat nulla sodales consectetur.Donec quam quam,
+                                consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in volutpat risus. Donec
+                                vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent mauris justo, suscipit
+                                id venenatis id, dignissim ac justo. Praesent pellentesque vel lacus vitae iaculis.
+                                Donec efficitur placerat nulla sodales consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item"id="third_accordin">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            How to register on the site? </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Donec quam quam, consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in
+                                volutpat risus. Donec vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent
+                                mauris justo, suscipit id venenatis id, dignissim ac justo. Praesent pellentesque vel
+                                lacus vitae iaculis. Donec efficitur placerat nulla sodales consectetur.Donec quam quam,
+                                consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in volutpat risus. Donec
+                                vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent mauris justo, suscipit
+                                id venenatis id, dignissim ac justo. Praesent pellentesque vel lacus vitae iaculis.
+                                Donec efficitur placerat nulla sodales consectetur.</p>
+                            <p>
+                                Donec quam quam, consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in
+                                volutpat risus. Donec vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent
+                                mauris justo, suscipit id venenatis id, dignissim ac justo. Praesent pellentesque vel
+                                lacus vitae iaculis. Donec efficitur placerat nulla sodales consectetur.Donec quam quam,
+                                consequat ut est sit amet, tincidunt bibendum orci. Vestibulum in volutpat risus. Donec
+                                vestibulum sagittis leo, ut iaculis dolor ultrices vel. Praesent mauris justo, suscipit
+                                id venenatis id, dignissim ac justo. Praesent pellentesque vel lacus vitae iaculis.
+                                Donec efficitur placerat nulla sodales consectetur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------footer------------------------------------------------------->
+    <div class="footer py-5" dir="ltr">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 p-0">
+                    <h6>تابعنا</h6>
+                    <ul class="p-0">
+                        <li class="d-inline-block"><a href=""><img src="assits/imgs/linkidin.svg" class="linkidin" alt="linkidin">
+                            </a>
+                        </li>
+                        <li class="d-inline-block"><a href=""><img src="assits/imgs/twitter.svg" class="twitter" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="d-inline-block"><a href=""><img src="assits/imgs/facebook.svg" alt="facebook" class="facebook">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="p-0">
+                        <li class="d-inline-block"><a href=""><img src="assits/imgs/appstore.svg" class="appstore" alt="appstore">
+                            </a>
+                        </li>
+                        <li class="d-inline-block"><a href=""><img src="assits/imgs/googlePlay.svg" class="googlePlay"
+                                alt="googlePlay"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 ar_imp_link">
+                    <h6>الفئات</h6>
+                    <div class="row justify-content-end px-3">
+                        <div class="col-md-3 p-0">
+                            <p><a href="/CategoryResult.html" style="color:#818391">Sports
+                                    Equipments</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">General
+                                    Constructing</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Services</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Education</a></p>
+                        </div>
+                        <div class="col-md-3 p-0 imp_link_middle">
+                            <p><a href="/CategoryResult.html" style="color:#818391">Fashion</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Baby</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Pets</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Jobs</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Furniture</a></p>
+                        </div>
+                        <div class="col-md-3 p-0">
+
+                            <p><a href="/CategoryResult.html" style="color:#818391">Cars &
+                                    Vehicles</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Properties</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Mobile Phones</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Electronics</a></p>
+                            <p><a href="/CategoryResult.html" style="color:#818391">Video Games</a></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 follow_us">
+                    <h6>معلومات عنا</h6>
+                    <p><a href="privacy.html">سياسة الخصوصية</a></p>
+                    <p><a href="/Fqs.html">الأسئلة</a></p>
+                    <p><a href="safteyRules.html">قواعد السلامة</a></p>
+                    <p><a href="/terms.html">تعليمات الاستخدام</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+          integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+          crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  
+      <script>
+            $(document).ready(function () {
+
+$("#Cars_vehicles").click(function () {
+    $("#level_two_Cars_vehicles").show();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Electronics").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+$("#level_two_Cars_vehicles").click(function () {
+    $("#level_three_Cars_vehicles").show();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Electronics").hide();
+    $("#level_three_Electronics").hide();
+});
+$("#level_three_Cars_vehicles").click(function () {
+$("#level_two_Cars_vehicles").show();
+$("#level_three_Cars_vehicles").show();
+$("#level_four_Cars_vehicles").show();
+$("#level_five_Cars_vehicles").hide();
+$("#level_two_Mobile").hide();
+$("#level_three_Mobile").hide();
+$("#level_two_Electronics").hide();
+$("#level_three_Electronics").hide();
+$("#level_two_Sports").hide();
+$("#level_three_Sports").hide();
+$("#level_two_Furniture").hide();
+$("#level_three_Constructing").hide();
+$("#level_two_Constructing").hide();
+$("#level_three_Furniture").hide();
+$("#level_two_Pets").hide();
+$("#level_three_Pets").hide();
+$("#level_two_Baby").hide();
+$("#level_three_Baby").hide();
+$("#level_two_Services").hide();
+$("#level_three_Services").hide();
+$("#level_two_Jobs").hide();
+$("#level_three_Jobs").hide();
+$("#level_two_Fashion").hide();
+$("#level_three_Fashion").hide();
+$("#level_two_Video").hide();
+$("#level_three_Video").hide();
+$("#level_three_Properties").hide();
+$("#level_two_Properties").hide();
+$("#level_three_Education").hide();
+$("#level_two_Education").hide();
+});
+$("#level_four_Cars_vehicles").click(function () {
+$("#level_two_Cars_vehicles").show();
+$("#level_three_Cars_vehicles").show();
+$("#level_four_Cars_vehicles").show();
+$("#level_five_Cars_vehicles").show();
+$("#level_two_Mobile").hide();
+$("#level_three_Mobile").hide();
+$("#level_two_Electronics").hide();
+$("#level_three_Electronics").hide();
+$("#level_two_Sports").hide();
+$("#level_three_Sports").hide();
+$("#level_two_Furniture").hide();
+$("#level_three_Constructing").hide();
+$("#level_two_Constructing").hide();
+$("#level_three_Furniture").hide();
+$("#level_two_Pets").hide();
+$("#level_three_Pets").hide();
+$("#level_two_Baby").hide();
+$("#level_three_Baby").hide();
+$("#level_two_Services").hide();
+$("#level_three_Services").hide();
+$("#level_two_Jobs").hide();
+$("#level_three_Jobs").hide();
+$("#level_two_Fashion").hide();
+$("#level_three_Fashion").hide();
+$("#level_two_Video").hide();
+$("#level_three_Video").hide();
+$("#level_three_Properties").hide();
+$("#level_two_Properties").hide();
+$("#level_three_Education").hide();
+$("#level_two_Education").hide();
+});
+
+$("#Mobile").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").show();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+    $("#level_two_Electronics").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+$("#level_two_Mobile").click(function () {
+    $("#level_three_Mobile").show();
+});
+$("#Electronics").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+
+    $("#level_two_Electronics").show();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+$("#Sports").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+    $("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").show();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+$("#Furniture").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+    $("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").show();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+$("#Constructing").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").show();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+$("#Pets").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").show();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Video").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+$("#Baby").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Baby").show();
+    $("#level_three_Pets").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Video").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+$("#Services").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").show();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Video").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+
+$("#Jobs").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+
+    $("#level_three_Constructing").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").show();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Video").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+
+$("#Fashion").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").show();
+    $("#level_three_Video").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+
+$("#Video").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").show();
+    $("#level_three_Properties").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+
+$("#Properties").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Video").hide();
+    $("#level_two_Properties").show();
+    $("#level_three_Education").hide();
+    $("#level_two_Education").hide();
+});
+
+$("#Education").click(function () {
+    $("#level_two_Cars_vehicles").hide();
+    $("#level_two_Mobile").hide();
+    $("#level_three_Cars_vehicles").hide();
+    $("#level_four_Cars_vehicles").hide();
+    $("#level_five_Cars_vehicles").hide();
+$("#level_two_Electronics").hide();
+    $("#level_three_Mobile").hide();
+    $("#level_two_Sports").hide();
+    $("#level_three_Electronics").hide();
+    $("#level_two_Furniture").hide();
+    $("#level_three_Sports").hide();
+    $("#level_two_Constructing").hide();
+    $("#level_three_Furniture").hide();
+    $("#level_two_Pets").hide();
+    $("#level_three_Pets").hide();
+    $("#level_three_Constructing").hide();
+    $("#level_two_Baby").hide();
+    $("#level_three_Baby").hide();
+    $("#level_two_Services").hide();
+    $("#level_three_Services").hide();
+    $("#level_two_Jobs").hide();
+    $("#level_three_Jobs").hide();
+    $("#level_two_Fashion").hide();
+    $("#level_three_Fashion").hide();
+    $("#level_two_Video").hide();
+    $("#level_three_Video").hide();
+    $("#level_two_Properties").hide();
+    $("#level_three_Properties").hide();
+    $("#level_two_Education").show();
+});
+$("#level_two_Electronics").click(function () {
+    $("#level_three_Electronics").show();
+});
+$("#level_two_Sports").click(function () {
+    $("#level_three_Sports").show();
+});
+$("#level_two_Furniture").click(function () {
+    $("#level_three_Furniture").show();
+});
+$("#level_two_Constructing").click(function () {
+    $("#level_three_Constructing").show();
+});
+$("#level_two_Pets").click(function () {
+    $("#level_three_Pets").show();
+});
+
+$("#level_two_Baby").click(function () {
+    $("#level_three_Baby").show();
+});
+$("#level_two_Services").click(function () {
+    $("#level_three_Services").show();
+});
+
+$("#level_two_Jobs").click(function () {
+    $("#level_three_Jobs").show();
+});
+
+$("#level_two_Fashion").click(function () {
+    $("#level_three_Fashion").show();
+});
+$("#level_two_Video").click(function () {
+    $("#level_three_Video").show();
+});
+$("#level_two_Properties").click(function () {
+    $("#level_three_Properties").show();
+});
+$("#level_two_Education").click(function () {
+    $("#level_three_Education").show();
+});
+
+$("#vertical").click(function () {
+    $(".grid_card").hide();
+    $(".horzindal_card").show();
+});
+$("#horzindal").click(function () {
+    $(".horzindal_card").hide();
+    $(".grid_card").show();
+});
+$("#kilo_show_more").click(function () {
+    $("#dis5").show();
+    $("#dis6").show();
+    $("#dis7").show();
+    $(".dis5").show();
+    $(".dis6").show();
+    $(".dis7").show();
+    $("#kilo_show_more").hide();
+    $("#kilo_less_more").show();
+
+
+});
+$("#model_show_more").click(function () {
+    $("#model11").show();
+    $("#model12").show();
+    $("#model13").show();
+    $("#model_show_more").hide();
+    $("#model_less_more").show();
+
+
+});
+$("#location_show_more").click(function () {
+    $("#loc11").show();
+    $("#loc12").show();
+    $("#loc13").show();
+    $("#location_show_more").hide();
+    $("#location_less_more").show();
+
+
+});
+
+$("#kilo_less_more").click(function () {
+    $("#dis5").hide();
+    $("#dis6").hide();
+    $("#dis7").hide();
+    $(".dis5").hide();
+    $(".dis6").hide();
+    $(".dis7").hide();
+    $("#kilo_show_more").show();
+    $("#kilo_less_more").hide();
+
+
+});
+$("#model_less_more").click(function () {
+    $("#model11").hide();
+    $("#model12").hide();
+    $("#model13").hide();
+    $("#model_show_more").show();
+    $("#model_less_more").hide();
+
+
+});
+$("#location_less_more").click(function () {
+    $("#loc11").hide();
+    $("#loc12").hide();
+    $("#loc13").hide();
+    $("#location_show_more").show();
+    $("#location_less_more").hide();
+
+
+});
+$("#like_icon").click(function () {
+    $("#like_icon").hide();
+    $("#liked_icon").show();
+});
+$("#liked_icon").click(function () {
+    $("#liked_icon").hide();
+    $("#like_icon").show();
+});
+});
+
+      
+          $(".dropdown-menu").click(function (e) {
+              e.stopPropagation();
+          });
+  
+  
+      </script>
+      <script src="assits/js/main.js">
+  
+      </script>
+  </body>
+  </html>
