@@ -411,6 +411,9 @@ color: #53b553;
 .latest_ads_container .heart_img {
   width: 30px;
 }
+.heart_img:hover{
+  cursor: pointer;
+}
 
 .featured_ads_container .card_title p,
 .latest_ads_container .card_title p {
