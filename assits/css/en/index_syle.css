@@ -1634,6 +1634,8 @@ textarea {
   font-weight: bold;
   cursor: pointer;
 }
+.verfication_form .active_code:hover {
+color: #53b553;}
 
 .dropdown-menu #level_three_Cars_vehicles li,
 .dropdown-menu #level_two_Mobile li,
