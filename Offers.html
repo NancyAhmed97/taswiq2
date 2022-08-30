@@ -1391,7 +1391,7 @@
         <div class="container-fluid">
             <div class="swiper mySwiper">
 
-                <ul class="nav nav-pills mb-3 swiper-wrapper flex-nowrap" id="pills-tab" role="tablist">
+                <ul class="nav nav-pills mb-3 swiper-wrapper flex-nowrap" id="pills-tab" role="tablist"style="background:red">
                     <li class="nav-item swiper-slide" role="presentation">
                         <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
                             type="button" role="tab" aria-controls="pills-all" aria-selected="true">جميع التصنيفات</button>
@@ -1440,7 +1440,14 @@
                         <button class="nav-link" id="pills-other-tab" data-bs-toggle="pill" data-bs-target="#pills-other"
                             type="button" role="tab" aria-controls="pills-other" aria-selected="false">اخري</button>
                     </li>
-                
+                    <li class="nav-item swiper-slide" role="presentation">
+                        <button class="nav-link" id="pills-other-tab" data-bs-toggle="pill" data-bs-target="#pills-other"
+                            type="button" role="tab" aria-controls="pills-other" aria-selected="false">اخري</button>
+                    </li>
+                    <li class="nav-item swiper-slide" role="presentation">
+                        <button class="nav-link" id="pills-other-tab" data-bs-toggle="pill" data-bs-target="#pills-other"
+                            type="button" role="tab" aria-controls="pills-other" aria-selected="false">اخري</button>
+                    </li>
                  
                
                 </ul>
@@ -1457,19 +1464,21 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="featured_ads_container p-0 mt-3">
-                                <div class="card" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <div class="card" type="button">
+                                    <img src="assits/imgs/adsImg.png" class="card-img-top" alt="..." data-bs-toggle="modal"
                                     data-bs-target="#exampleModalCenter">
-                                    <img src="assits/imgs/adsImg.png" class="card-img-top" alt="..." />
 
                                     <div class="card-body">
                                         <div class="card_title flex-column">
-                                            <div>
+                                            <div data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalCenter">
                                                 <p>Absolute real state</p>
                                             </div>
                                             <div class="d-flex">
                                                 <img src="assits/imgs/seenIcon.png" alt="seenIcon">
                                                 <p>20</p>
-                                                <img src="assits/imgs/likeIcon.png" alt="likeIcon" class="ml-2">
+                                                <img src="assits/imgs/likeIcon.png" alt="likeIcon" class="ml-2"id="like_icon">
+                                                <img src="assits/imgs/handLikeIcon.svg" alt="likedIcon" class="ml-2"id="liked_icon" style="display:none ;">
                                                 <p>07</p>
                                             </div>
 
@@ -3031,7 +3040,8 @@
           <div class="d-flex justify-content-end px-3">
             <div class="mx-3 d-flex">
               <p class="mb-0 mx-2">08</p>
-              <img src="assits/imgs/Mask Group 29512.svg" style="width: 20px;" />
+              <img src="assits/imgs/likeIcon.png" alt="likeIcon" class="ml-2"id="like_icon_card"style="width: 28px;cursor: pointer;">
+              <img src="assits/imgs/handLikeIcon.svg" alt="likedIcon" class="ml-2"id="liked_icon_card" style="display:none ;cursor: pointer;">
 
             </div>
             <div class="d-flex">
@@ -3044,23 +3054,27 @@
         <div class="modal-footer d-flex flex-column ">
           <div class="d-flex justify-content-between w-100">
             <div class="d-flex">
-              <p class="mb-0 mt-1 mx-3">+966 344 234 23</p>
-              <img src="assits/imgs/Group 73001.svg" style="width: 30px;" />
+                <p class="mb-0 mt-1 mx-3"><a href="tel:966 344 234 23"
+                    style="color: #000;">+966 344 234 23</a></p>
+                 <img src="assits/imgs/Group 73001.svg" style="width: 30px;" />
             </div>
             <div class="d-flex">
-              <p class="mb-0 mt-1 mx-2">+966 344 234 23</p>
-              <img src="assits/imgs/Group 73002.svg" style="width: 30px;" />
+                <p class="mb-0 mt-1 mx-2">
+                    <a href="whatsapp://send?phone=+966 344 234 23&text="style="color: #000;">+966 344 234 23</a></p>
+                 <img src="assits/imgs/Group 73002.svg" style="width: 30px;" />
             </div>
           </div>
           <div class="d-flex justify-content-between w-100 mt-3">
             <div class="d-flex">
-              <p class="mb-0 mt-1 mx-2">www.taswiq4u.com</p>
-              <img src="assits/imgs/Group 73107.svg" style="width: 30px;" />
+                <p class="mb-0 mt-1 mx-2"><a href="www.taswiq4u.com"
+                    style="color:#000;">www.taswiq4u.com</a></p>
+                 <img src="assits/imgs/Group 73107.svg" style="width: 30px;" />
             </div>
 
             <div class="d-flex">
-              <p class="mb-0 mt-1 mx-2">www.taswiq4u.com</p>
-              <img src="assits/imgs/Group 73108.svg" style="width: 30px;" />
+                <p class="mb-0 mt-1 mx-2"><a href="https://www.instagram.com/taswiq4u.eg/?hl=en"
+                    style="color:#000;">www.taswiq4u.com</a></p>
+                 <img src="assits/imgs/Group 73108.svg" style="width: 30px;" />
             </div>
           </div>
         </div>
@@ -3072,7 +3086,7 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 9,
+        slidesPerView: 10,
 
         navigation: {
           nextEl: ".swiper-button-next",
@@ -3721,6 +3735,14 @@ $("#like_icon").click(function () {
 $("#liked_icon").click(function () {
     $("#liked_icon").hide();
     $("#like_icon").show();
+});
+$("#like_icon_card").click(function () {
+    $("#like_icon_card").hide();
+    $("#liked_icon_card").show();
+});
+$("#liked_icon_card").click(function () {
+    $("#liked_icon_card").hide();
+    $("#like_icon_card").show();
 });
 });
 

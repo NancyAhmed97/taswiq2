@@ -1482,6 +1482,14 @@
     <div class="ar_section_title">
         <div class="container-fluid">
             <p class="mb-0 text-right">Ethan Meyer</p>
+            <ol class="breadcrumb px-0 mb-0 pb-0">
+                <li class="pr-2"><a href="/homeWithLogin.html">Home</a></li>
+                <li>></li>
+                <li class="px-2">Properties</li>
+                <li>></li>
+                <li class="px-2">Apartment for sale</li>
+
+            </ol>
         </div>
     </div>
     <!---------------------ads detals-------------------------->
@@ -1568,7 +1576,7 @@
                     </div>
             
 
-                    <h6 class="section_title text-left w-100">الخصائص</h6>
+                    <h6 class="section_title text-right w-100">PROPERTIES</h6>
                     <div class="properties_container  p-3">
                         <div class="container-fluid">
                             <div class="row">
@@ -1663,10 +1671,13 @@
                         <div class="d-flex justify-content-between flex-direction-row">
                             <h5>490,500 EGP</h5>
                             <div>
+                                <img src="../assits/imgs/hareIcon.svg" alt="heart" class="heart_img" />
+
                                 <img src="../assits/imgs/heart.png" alt="heart" class="heart_img" id="like_icon" />
                                 <img src="../assits/imgs/Mask Group 29521.svg" alt="heart" class="heart_img"
                                     style="display: none;width: 48px;" id="liked_icon" />
-                            </div>
+
+                                </div>
                         </div>
                         <p>Kia sportag 2019</p>
                         <div class="border-bottom pb-3">
@@ -1806,6 +1817,41 @@
     
         </div>
       </div>
+      <div class="modal fade ad_details_modal" id="reportexampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog m-0"dir="ltr">
+          <div class="modal-content">
+              <div class="modal-header pb-0">
+                  <h5 class="modal-title" id="exampleModalLabel">الابلاغ عن اعلان</h5>
+                  <img src="../assits/imgs/Group 72768.svg" data-bs-dismiss="modal" aria-label="Close"
+                      style="height:35px;width:35px;cursor: pointer;">
+              </div>
+              <div class="modal-body border-none pb-0">
+                  <p class="mb-0 choose_resone">اختر السبب</p>
+                  <form class="mb-3"dir="rtl">
+                        <input type="radio" id="html" name="fav_language" value="HTML" style="width: auto;">
+                        <label for="html" class="mb-0 my-1">سبب الابلاغ</label><br>
+                        <input type="radio" id="css" name="fav_language" value="CSS" style="width: auto;">
+                        <label for="css" class="mb-0 my-1">سبب الابلاغ</label><br>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript"
+                          style="width: auto;">
+                        <label for="javascript" class="mb-0 my-1">سبب الابلاغ</label><br>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript"
+                          style="width: auto;">
+                        <label for="javascript" class="mb-0 my-1">سبب الابلاغ</label><br>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript"
+                          style="width: auto;">
+                        <label for="javascript" class="mb-0 my-1">سبب الابلاغ</label><br>
+                  </form>
+                  <p class="mb-0 pb-2 comment">تعليق</p>
+                  <textarea rows="8" placeholder="Write your message"></textarea>
+              </div>
+              <div class="modal-footer justify-content-center">
+                  <button type="button" class="btn w-75" style="padding: 10px 0;">إرسال</button>
+              </div>
+          </div>
+      </div>
+  </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>

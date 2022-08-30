@@ -1472,20 +1472,25 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="featured_ads_container p-0 mt-3">
-                                <div class="card" type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModalCenter">
-                                    <img src="../assits/imgs/adsImg.png" class="card-img-top" alt="..." />
+                                <div class="card" type="button"  style="cursor: pointer;">
+                                    <img src="../assits/imgs/adsImg.png" class="card-img-top" alt="..."data-bs-toggle="modal"
+                                    data-bs-target="#exampleModalCenter" />
 
                                     <div class="card-body">
                                         <div class="card_title flex-column">
-                                            <div>
+                                            <div data-bs-toggle="modal"
+                                            data-bs-target="#exampleModalCenter">
                                                 <p>Absolute real state</p>
                                             </div>
                                             <div class="d-flex justify-content-end">
-                                                <img src="../assits/imgs/seenIcon.png" alt="seenIcon">
-                                                <p>20</p>
-                                                <img src="../assits/imgs/likeIcon.png" alt="likeIcon" class="ml-2">
+                                                <p >20</p>
+
+                                                <img src="../assits/imgs/seenIcon.png" alt="seenIcon"class="ml-3">
                                                 <p>07</p>
+
+                                                <img src="../assits/imgs/likeIcon.png" alt="likeIcon" class="ml-2"id="like_icon"style="cursor: pointer;">
+                                                <img src="../assits/imgs/handLikeIcon.svg" alt="likedIcon" class="ml-2"id="liked_icon" style="display:none ;">
+
                                             </div>
 
                                         </div>
@@ -3018,17 +3023,17 @@
              class="close_ads_modal">
          </button>
          <h6 class="text-right w-100 px-3 mt-3">Absolute real state</h6>
-         <div class="d-flex justify-content-end px-3">
+         <div class="d-flex justify-content-start ">
            <div class="mx-3 d-flex">
-             <p class="mb-0 mx-2">08</p>
-             <img src="../assits/imgs/Mask Group 29512.svg" style="width:
-               25px;cursor: pointer;" />
+            <img src="../assits/imgs/likeIcon.png" alt="likeIcon" id="like_icon_card"style="width: 28px;cursor: pointer;">
+            <img src="../assits/imgs/handLikeIcon.svg" alt="likedIcon" id="liked_icon_card" style="display:none ;cursor: pointer;">
+           <p class="mb-0 mx-2">08</p>
 
            </div>
            <div class="d-flex">
-             <p class="mb-0 mx-2">07</p>
              <img src="../assits/imgs/Mask Group 29513.svg" style="width:
                25px;cursor: pointer;" />
+             <p class="mb-0 mx-2">07</p>
 
            </div>
          </div>
@@ -3043,8 +3048,8 @@
                />
            </div>
            <div class="d-flex">
-             <p class="mb-0 mt-1 mx-2"><a href="tel:966 344 234 23"
-                 style="color: #000;">+966 344 234 23</a></p>
+             <p class="mb-0 mt-1 mx-2">
+                 <a href="whatsapp://send?phone=+966 344 234 23&text="style="color: #000;">+966 344 234 23</a></p>
              <img src="../assits/imgs/Group 73002.svg" style="width: 30px;"
                />
            </div>
@@ -3058,7 +3063,7 @@
            </div>
 
            <div class="d-flex">
-             <p class="mb-0 mt-1 mx-2"><a href="www.taswiq4u.com"
+             <p class="mb-0 mt-1 mx-2"><a href="https://www.instagram.com/taswiq4u.eg/?hl=en"
                  style="color:#000;">www.taswiq4u.com</a></p>
              <img src="../assits/imgs/Group 73108.svg" style="width: 30px;"
                />
@@ -3073,7 +3078,7 @@
  <!-- Initialize Swiper -->
  <script>
    var swiper = new Swiper(".mySwiper", {
-     slidesPerView: 9,
+     slidesPerView: 8,
 
      navigation: {
        nextEl: ".swiper-button-next",
@@ -3722,6 +3727,14 @@ $("#like_icon").click(function () {
 $("#liked_icon").click(function () {
  $("#liked_icon").hide();
  $("#like_icon").show();
+});
+$("#like_icon_card").click(function () {
+ $("#like_icon_card").hide();
+ $("#liked_icon_card").show();
+});
+$("#liked_icon_card").click(function () {
+ $("#liked_icon_card").hide();
+ $("#like_icon_card").show();
 });
 });
 

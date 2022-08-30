@@ -1100,13 +1100,33 @@ textarea {
 }
 
 .save_change_btn {
-  color: #cad1e0;
-  background-color: #f0f1f4;
+  color: #fff;
+  background-color: #53b553;
   font-family: "Tajawal", sans-serif;
   font-size: 15px;
   border: none;
 }
-
+.save_change_btn,
+.save_change_Pass_btn,
+.save_btn
+{
+  color: #fff;
+  background-color: #53b553;
+  font-family: "Tajawal", sans-serif;
+  font-size: 15px;
+  border: none;
+}
+.save_change_btn:hover,
+.save_change_Pass_btn:hover,
+.save_btn:hover
+{
+  color: #53b553;
+  background-color: #fff;
+  font-family: "Tajawal", sans-serif;
+  font-size: 15px;
+  border: none;
+  border:1px solid #53b553;
+}
 .save_btn {
   color: #ffffff;
   background-color: #53b553;
@@ -1131,6 +1151,13 @@ textarea {
   color: #818391;
   font-size: 12px;
   font-family: "Rubik", sans-serif;
+}
+.icon_container{
+  position: absolute;
+  top: 0px;
+  background-color: red;
+  right: 10px;
+  z-index: 55555555555555;
 }
 
 .profile_container .bundle_list li:hover {
